@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_appSimpleCalulator_FILE D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/libappSimpleCalulator_arm64-v8a.so)
+set(__QT_DEPLOY_TARGET_appSimpleCalulator_TYPE MODULE_LIBRARY)

@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "Calculate",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "result",
+                    "notify": "resultChanged",
+                    "read": "result",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "double",
+                    "user": false,
+                    "write": "setResult"
+                }
+            ],
+            "qualifiedClassName": "Calculate",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "resultChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "expression",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "evaluateExpression",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "calculate.h",
+    "outputRevision": 68
+}

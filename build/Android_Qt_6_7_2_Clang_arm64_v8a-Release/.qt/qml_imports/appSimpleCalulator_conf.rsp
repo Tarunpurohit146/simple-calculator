@@ -1,0 +1,14 @@
+-rootPath
+D:/qt_project/SimpleCalulator
+-cmake-output
+-output-file
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/.qt/qml_imports/appSimpleCalulator_conf.cmake
+-importPath
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/SimpleCalulator
+-importPath
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release
+-importPath
+D:/Qt/6.7.2/android_arm64_v8a/./qml
+-qrcFiles
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/.qt/rcc/qmake_SimpleCalulator.qrc
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/.qt/rcc/appSimpleCalulator_raw_qml_0.qrc

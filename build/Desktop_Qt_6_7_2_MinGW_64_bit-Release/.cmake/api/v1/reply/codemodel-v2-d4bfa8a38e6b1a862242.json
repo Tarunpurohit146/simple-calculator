@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e42c1bae04f39e408937.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SimpleCalulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-4793d77c38ed478ca34f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-dbe6bae9f971c1c69f61.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-213cdc1686ec25c9b8ed.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-a58899fc5e9b6fdc8a3e.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator-Release-6a28d8878ea307f66c3c.json",
+					"name" : "appSimpleCalulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_autogen-Release-5b03501e75916e8340ac.json",
+					"name" : "appSimpleCalulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_autogen_timestamp_deps-Release-e95979d90ffe1e436d16.json",
+					"name" : "appSimpleCalulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmlimportscan-Release-ac404006df17999b5792.json",
+					"name" : "appSimpleCalulator_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint-Release-63edcfbcde70787284ba.json",
+					"name" : "appSimpleCalulator_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint_json-Release-8e6846439b6b7fae0cd2.json",
+					"name" : "appSimpleCalulator_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint_module-Release-b2460ad06ee38699f424.json",
+					"name" : "appSimpleCalulator_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmltyperegistration-Release-26389f0a39610e018b70.json",
+					"name" : "appSimpleCalulator_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_tooling-Release-e147e3f4ad8c2617d6f4.json",
+					"name" : "appSimpleCalulator_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/qt_project/SimpleCalulator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+		"source" : "D:/qt_project/SimpleCalulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

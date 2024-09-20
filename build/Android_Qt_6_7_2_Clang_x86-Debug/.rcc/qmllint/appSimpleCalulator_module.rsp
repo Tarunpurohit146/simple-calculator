@@ -1,0 +1,10 @@
+-I
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_x86-Debug
+-I
+D:/Qt/6.7.2/android_x86/./qml
+--resource
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_x86-Debug/.qt/rcc/qmake_SimpleCalulator.qrc
+--resource
+D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_x86-Debug/.qt/rcc/appSimpleCalulator_raw_qml_0.qrc
+--module
+SimpleCalulator

@@ -1,0 +1,503 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Android - 23 - aarch64
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld.lld: error: D:/minGW/lib/crt2.o: machine type x86 conflicts with x64
+      ld.lld: error: D:/minGW/lib/gcc/mingw32/6.3.0/crtbegin.o: machine type x86 conflicts with x64
+      ld.lld: error: D:/minGW/lib/gcc/mingw32/6.3.0/crtend.o: machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(CRTglob.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(setargv.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(CRTfmode.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(cpu_features.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(CRT_fp10.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(txtmode.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(main.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(gccmain.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(tlssup.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingw32.a(pseudo-reloc.o): machine type x86 conflicts with x64
+      ld.lld: error: libmingwex.a(fesetenv.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs01229.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs01091.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs00753.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs00689.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs00417.o): machine type x86 conflicts with x64
+      ld.lld: error: libmsvcrt.a(djpvbs00219.o): machine type x86 conflicts with x64
+      ld.lld: error: too many errors emitted, stopping now (use --error-limit=0 to see all errors)
+      clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_2b4ee
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_2b4ee.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -c D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        Android (10552028, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: aarch64-none-linux-android23
+        Thread model: posix
+        InstalledDir: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin
+         (in-process)
+         "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android23 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm -resource-dir C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_2b4ee.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir=D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fcolor-diagnostics -fansi-escape-codes -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -x c++ D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\x0d
+         C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include\x0d
+         C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android\x0d
+         C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\x0d
+        End of search list.\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b4ee  -latomic -lm && cd ."
+        Android (10552028, based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)
+        Target: aarch64-none-linux-android23
+        Thread model: posix
+        InstalledDir: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin
+         "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2b4ee C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64 -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23 -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -lc++ -lm C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+          add: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+          add: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+          add: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include]
+        collapse include dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+        collapse include dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        implicit include dirs: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_2b4ee]
+        ignore line: [[1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics   -v -MD -MT CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_2b4ee.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -c D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (10552028  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: aarch64-none-linux-android23]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple aarch64-none-linux-android23 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu generic -target-feature +neon -target-feature +v8a -target-feature +fix-cortex-a53-835769 -target-abi aapcs -mllvm -treat-scalable-fixed-error-as-warning -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm -resource-dir C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17 -dependency-file "CMakeFiles\\\\cmTC_2b4ee.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include -internal-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir=D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-oxucrm -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fcolor-diagnostics -fansi-escape-codes -vectorize-loops -vectorize-slp -target-feature +outline-atomics -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -x c++ D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.2 based upon LLVM 17.0.2 default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1\x0d]
+        ignore line: [ C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/include\x0d]
+        ignore line: [ C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android\x0d]
+        ignore line: [ C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include\x0d]
+        ignore line: [End of search list.\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --gc-sections -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2b4ee  -latomic -lm && cd ."]
+        ignore line: [Android (10552028  based on r487747d) clang version 17.0.2 (https://android.googlesource.com/toolchain/llvm-project d9f89f4d16663d5012e5c09495f3b30ece3d2362)]
+        ignore line: [Target: aarch64-none-linux-android23]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin]
+        link line: [ "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=gnu --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2b4ee C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64 -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23 -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --gc-sections --no-undefined --gc-sections CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -lc++ -lm C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl -lc C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a -l:libunwind.a -ldl C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o\x0d]
+          arg [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2b4ee] ==> ignore
+          arg [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o] ==> obj [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o]
+          arg [-LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64] ==> dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64]
+          arg [-LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23] ==> dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23]
+          arg [-LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+          arg [-LC:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_2b4ee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [-lc++] ==> lib [c++]
+          arg [-lm] ==> lib [m]
+          arg [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o] ==> obj [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o]
+        linker tool for 'CXX': C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld
+        remove lib [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        remove lib [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/libclang_rt.builtins-aarch64-android.a]
+        collapse library dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64]
+        collapse library dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23]
+        collapse library dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+        collapse library dir [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtbegin_dynamic.o;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/crtend_android.o]
+        implicit dirs: [C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/17/lib/linux/aarch64;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" "-v"
+      LLD 17.0.2 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_bc462
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_bc462.dir/src.cxx.o -MF CMakeFiles\\cmTC_bc462.dir\\src.cxx.o.d -o CMakeFiles/cmTC_bc462.dir/src.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv/src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_bc462.dir/src.cxx.o 
+        C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DCMAKE_HAVE_LIBC_PTHREAD  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_bc462.dir/src.cxx.o -MF CMakeFiles\\cmTC_bc462.dir\\src.cxx.o.d -o CMakeFiles/cmTC_bc462.dir/src.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv/src.cxx
+        \x1b[1mD:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-n1vmrv/src.cxx:13:3: \x1b[0m\x1b[0;1;31merror: \x1b[0m\x1b[1muse of undeclared identifier 'pthread_cancel'\x1b[0m\x0d
+          pthread_cancel(thread);\x0d
+        \x1b[0;1;32m  ^\x0d
+        \x1b[0m1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:136 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-t2fcwz"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-t2fcwz"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-t2fcwz'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_8537e
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_8537e.dir/CheckForPthreads.cxx.o -MF CMakeFiles\\cmTC_8537e.dir\\CheckForPthreads.cxx.o.d -o CMakeFiles/cmTC_8537e.dir/CheckForPthreads.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-t2fcwz/CheckForPthreads.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_8537e.dir/CheckForPthreads.cxx.o -o cmTC_8537e  -pthread   -latomic -lm && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-60fq81"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-60fq81"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-60fq81'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_63f83
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_STDATOMIC  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_63f83.dir/src.cxx.o -MF CMakeFiles\\cmTC_63f83.dir\\src.cxx.o.d -o CMakeFiles/cmTC_63f83.dir/src.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-60fq81/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_63f83.dir/src.cxx.o -o cmTC_63f83  -latomic -lm && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake:127 (check_cxx_source_compiles)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:13 (find_package)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test HAVE_EGL"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-rqef3b"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-rqef3b"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_EGL"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-rqef3b'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_3fbff
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_EGL  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_3fbff.dir/src.cxx.o -MF CMakeFiles\\cmTC_3fbff.dir\\src.cxx.o.d -o CMakeFiles/cmTC_3fbff.dir/src.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-rqef3b/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_3fbff.dir/src.cxx.o -o cmTC_3fbff  C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libEGL.so   -latomic -lm && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/FindGLESv2.cmake:27 (check_cxx_source_compiles)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake:43 (include)"
+      - "D:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake:43 (include)"
+      - "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test HAVE_GLESv2"
+    directories:
+      source: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-bmsu3z"
+      binary: "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-bmsu3z"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PLATFORM: "android-23"
+      ANDROID_STL: "c++_shared"
+      ANDROID_TOOLCHAIN: "clang"
+      ANDROID_USE_LEGACY_TOOLCHAIN_FILE: "OFF"
+      CMAKE_ANDROID_STL_TYPE: "c++_shared"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android23"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_MODULE_PATH: "D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt/6.7.2/android_arm64_v8a/lib/cmake/Qt6/3rdparty/kwin"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_GLESv2"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-bmsu3z'
+        
+        Run Build Command(s): D:/Qt/Tools/Ninja/ninja.exe -v cmTC_d9d0c
+        [1/2] C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DHAVE_GLESv2  -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE -fansi-escape-codes -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_d9d0c.dir/src.cxx.o -MF CMakeFiles\\cmTC_d9d0c.dir\\src.cxx.o.d -o CMakeFiles/cmTC_d9d0c.dir/src.cxx.o -c D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release/CMakeFiles/CMakeScratch/TryCompile-bmsu3z/src.cxx
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\puroh\\AppData\\Local\\Android\\Sdk\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android23 --sysroot=C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections CMakeFiles/cmTC_d9d0c.dir/src.cxx.o -o cmTC_d9d0c  C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libGLESv2.so  C:/Users/puroh/AppData/Local/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/23/libEGL.so   -latomic -lm && cd ."
+        
+      exitCode: 0
+...

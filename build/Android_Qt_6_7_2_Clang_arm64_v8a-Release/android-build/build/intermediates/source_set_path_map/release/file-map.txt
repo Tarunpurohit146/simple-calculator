@@ -1,0 +1,15 @@
+org.qtproject.example.appSimpleCalulator-core-1.13.1-0 C:\Users\puroh\.gradle\caches\transforms-3\1889803c1caf7a44934ab227839ed332\transformed\core-1.13.1\res
+org.qtproject.example.appSimpleCalulator-core-runtime-2.2.0-1 C:\Users\puroh\.gradle\caches\transforms-3\2b403e01a06595b8444409d73aa3796c\transformed\core-runtime-2.2.0\res
+org.qtproject.example.appSimpleCalulator-annotation-experimental-1.4.0-2 C:\Users\puroh\.gradle\caches\transforms-3\73976669f2bc37dc7a9154a5a6579b1d\transformed\annotation-experimental-1.4.0\res
+org.qtproject.example.appSimpleCalulator-profileinstaller-1.3.0-3 C:\Users\puroh\.gradle\caches\transforms-3\a5abd7c9360207573f0b21d185fdfe02\transformed\profileinstaller-1.3.0\res
+org.qtproject.example.appSimpleCalulator-lifecycle-runtime-2.6.2-4 C:\Users\puroh\.gradle\caches\transforms-3\d0a909cbef776f416f16991abbd941c0\transformed\lifecycle-runtime-2.6.2\res
+org.qtproject.example.appSimpleCalulator-startup-runtime-1.1.1-5 C:\Users\puroh\.gradle\caches\transforms-3\df356c7a39e7ed5dfb4999ea8f66705f\transformed\startup-runtime-1.1.1\res
+org.qtproject.example.appSimpleCalulator-java-6 D:\Qt\6.7.2\android_arm64_v8a\src\android\java\res
+org.qtproject.example.appSimpleCalulator-pngs-7 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\generated\res\pngs\release
+org.qtproject.example.appSimpleCalulator-resValues-8 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\generated\res\resValues\release
+org.qtproject.example.appSimpleCalulator-rs-9 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\generated\res\rs\release
+org.qtproject.example.appSimpleCalulator-mergeReleaseResources-10 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+org.qtproject.example.appSimpleCalulator-mergeReleaseResources-11 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+org.qtproject.example.appSimpleCalulator-merged_res-12 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\build\intermediates\merged_res\release
+org.qtproject.example.appSimpleCalulator-android-build-13 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\res
+org.qtproject.example.appSimpleCalulator-release-14 D:\qt_project\SimpleCalulator\build\Android_Qt_6_7_2_Clang_arm64_v8a-Release\android-build\src\release\res

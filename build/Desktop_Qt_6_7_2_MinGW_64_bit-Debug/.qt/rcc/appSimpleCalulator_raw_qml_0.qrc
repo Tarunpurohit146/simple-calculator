@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/qt/qml/SimpleCalulator/">
+    <file alias="Main.qml">D:/qt_project/SimpleCalulator/Main.qml</file>
+    <file alias="android/AndroidManifest.xml">D:/qt_project/SimpleCalulator/android/AndroidManifest.xml</file>
+    <file alias="android/build.gradle">D:/qt_project/SimpleCalulator/android/build.gradle</file>
+    <file alias="android/res/values/libs.xml">D:/qt_project/SimpleCalulator/android/res/values/libs.xml</file>
+    <file alias="android/res/xml/qtprovider_paths.xml">D:/qt_project/SimpleCalulator/android/res/xml/qtprovider_paths.xml</file>
+    <file alias="android/gradle/wrapper/gradle-wrapper.jar">D:/qt_project/SimpleCalulator/android/gradle/wrapper/gradle-wrapper.jar</file>
+    <file alias="android/gradle/wrapper/gradle-wrapper.properties">D:/qt_project/SimpleCalulator/android/gradle/wrapper/gradle-wrapper.properties</file>
+    <file alias="android/gradle.properties">D:/qt_project/SimpleCalulator/android/gradle.properties</file>
+    <file alias="android/gradlew">D:/qt_project/SimpleCalulator/android/gradlew</file>
+    <file alias="android/gradlew.bat">D:/qt_project/SimpleCalulator/android/gradlew.bat</file>
+  </qresource>
+</RCC>
+

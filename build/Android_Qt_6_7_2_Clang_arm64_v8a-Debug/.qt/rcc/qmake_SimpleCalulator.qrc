@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/SimpleCalulator">
+    <file alias="qmldir">D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Debug/SimpleCalulator/qmldir</file>
+  </qresource>
+</RCC>
+

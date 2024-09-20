@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-6e833de9653fc56bb4af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SimpleCalulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Release-da74430f6db30a2bf28f.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Release-265114da4b80cf8c3553.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-dfbd7365e8c98f229a1c.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-238e3599187252d66ffc.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-c07602906ca4191c5b93.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-c183768cca7d920ade15.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Release-6cce694b0a0b77a414d0.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Release-398d14f6e57a9f587a2c.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator-Release-d399a79b419fd22360a8.json",
+					"name" : "appSimpleCalulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_autogen-Release-e16672192b1398cfb803.json",
+					"name" : "appSimpleCalulator_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_autogen_timestamp_deps-Release-f7d914835cc70910e265.json",
+					"name" : "appSimpleCalulator_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_make_aab-Release-27514f6f5d3d9d3036e8.json",
+					"name" : "appSimpleCalulator_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_make_apk-Release-3d52544d3acbcde0e266.json",
+					"name" : "appSimpleCalulator_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_prepare_apk_dir-Release-2cfeb56343265f3a9192.json",
+					"name" : "appSimpleCalulator_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint-Release-fdc23b410dd60ce094ec.json",
+					"name" : "appSimpleCalulator_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint_json-Release-0e20018cca81d01c433e.json",
+					"name" : "appSimpleCalulator_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmllint_module-Release-ca489c2bb22e798cc063.json",
+					"name" : "appSimpleCalulator_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_qmltyperegistration-Release-3d2ebeae5956417824d6.json",
+					"name" : "appSimpleCalulator_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appSimpleCalulator_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appSimpleCalulator_tooling-Release-c462a302161eb74607a3.json",
+					"name" : "appSimpleCalulator_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Release-6147e52594c8b1ec6cce.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/qt_project/SimpleCalulator/build/Android_Qt_6_7_2_Clang_arm64_v8a-Release",
+		"source" : "D:/qt_project/SimpleCalulator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,10 @@
+-I
+D:/qt_project/SimpleCalulator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-I
+D:/Qt/6.7.2/mingw_64/./qml
+--resource
+D:/qt_project/SimpleCalulator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_SimpleCalulator.qrc
+--resource
+D:/qt_project/SimpleCalulator/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appSimpleCalulator_raw_qml_0.qrc
+--module
+SimpleCalulator

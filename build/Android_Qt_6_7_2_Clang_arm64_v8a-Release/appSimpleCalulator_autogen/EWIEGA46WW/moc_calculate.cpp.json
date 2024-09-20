@@ -1,0 +1,30 @@
+{
+    "classes": [
+        {
+            "className": "Calculate",
+            "object": true,
+            "qualifiedClassName": "Calculate",
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "expression",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "evaluateExpression",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "calculate.h",
+    "outputRevision": 68
+}
