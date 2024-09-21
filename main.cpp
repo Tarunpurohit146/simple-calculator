@@ -2,6 +2,7 @@
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
 #include "calculate.h"
+#include <QIcon>
 int main(int argc, char *argv[])
 {
     qputenv("QT_IM_MODULE", QByteArray("qtvirtualkeyboard"));
@@ -9,6 +10,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
     Calculate calculate;
 
+    app.setWindowIcon(QIcon(":/images/calculate.ico"));
     QQmlApplicationEngine engine;
     QObject::connect(
         &engine,

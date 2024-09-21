@@ -9,15 +9,18 @@
 class Calculate : public QObject
 {
     Q_OBJECT
+    Q_PROPERTY(QString result READ result  NOTIFY resultChange)
 
 public:
     explicit Calculate(QObject *parent = nullptr);
 
-public slots:
-    void evaluateExpression(const QString &expression);
+    QString result() const;
+    Q_INVOKABLE void evaluateExpression(const QString &expression);
 
+signals:
+    void resultChange();
 private:
-    double m_result;
+    QString m_result;
 };
 
 #endif // CALCULATE_H

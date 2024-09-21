@@ -3,40 +3,63 @@
 #include <stack>
 #include <sstream>
 #include <cctype>
+#include <set>
 #include <QString>
-#include <stdexcept>
 
 Calculate::Calculate(QObject *parent)
     : QObject{parent}
-    , m_result(0)
+    , m_result("")
 {}
+
+QString Calculate::result() const {
+    return m_result;
+}
 
 void Calculate::evaluateExpression(const QString &expression) {
     std::string expr = expression.toStdString();
     std::istringstream iss(expr);
     std::stack<double> numbers;
+    std::set<double> uniqueNumbers;
     std::stack<char> operators;
-    qDebug() << expr;
+
     auto applyOp = [&](char op) {
-        double right = numbers.top(); numbers.pop();
-        double left = numbers.top(); numbers.pop();
-        switch (op) {
-        case '+': numbers.push(left + right); break;
-        case '-': numbers.push(left - right); break;
-        case '*': numbers.push(left * right); break;
-        case '/':
-            if (right != 0) {
-                numbers.push(left / right);
-            } else {
-                throw std::runtime_error("Division by zero");
+        try {
+            double right = numbers.top(); numbers.pop();
+            double left = numbers.top(); numbers.pop();
+            switch (op) {
+            case '+': numbers.push(left + right); break;
+            case '-': numbers.push(left - right); break;
+            case '*': numbers.push(left * right); break;
+            case '/':
+                if (right != 0) {
+                    numbers.push(left / right);
+                } else {
+                    m_result = "Error: Division by zero";
+                    emit resultChange();
+                    return;
+                }
+                break;
+            case '%':
+                if (right != 0) {
+                    numbers.push(static_cast<int>(left) % static_cast<int>(right));
+                } else {
+                    m_result = "Error: Division by zero";
+                    emit resultChange();
+                    return;
+                }
+                break;
             }
-            break;
+        }
+        catch (...) {
+            m_result = "Error in expression";
+            emit resultChange();
+            return;
         }
     };
 
     auto precedence = [&](char op) {
         if (op == '+' || op == '-') return 1;
-        if (op == '*' || op == '/') return 2;
+        if (op == '*' || op == '/' || op == '%') return 2;
         return 0;
     };
 
@@ -57,7 +80,7 @@ void Calculate::evaluateExpression(const QString &expression) {
                 double num;
                 iss >> num;
                 numbers.push(num);
-            } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/') {
+            } else if (ch == '+' || ch == '-' || ch == '*' || ch == '/' || ch == '%') {
                 processOperators(ch);
             } else if (ch == '(') {
                 operators.push(ch);
@@ -77,9 +100,10 @@ void Calculate::evaluateExpression(const QString &expression) {
     }
 
     if (!numbers.empty()) {
-        m_result = numbers.top();
-        qDebug() << m_result;
+        m_result = QString::number(numbers.top());
+        emit resultChange();
     } else {
-        qDebug() << "Error: No result";
+        m_result = "Error: No result";
+        emit resultChange();
     }
 }

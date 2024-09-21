@@ -7,7 +7,8 @@ Window {
     width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Simple Calculator")
+
 
     Rectangle {
         id: display
@@ -563,13 +564,15 @@ Window {
                 MouseArea {
                     anchors.fill: parent
                     onClicked: {
-                        if(values.text.includes(".") || values.text > 0 || values.text < 0){
-                            if (values.text.startsWith("-")) {
+                        if(values.text.includes(".") || values.text > 0 || values.text < 0 && totalText.text !== ""){
+                            if (totalText.text.charAt(totalText.text.length - 1) !== "+" && totalText.text.charAt(totalText.text.length - 1) === "-" && totalText.text !== "" ) {
                                 // Remove the '-' sign from the start of the text
-                                values.text = values.text.substring(1);
-                            } else {
+                                //values.text = values.text.substring(1);
+                                totalText.text = totalText.text.slice(0,-1) + "+";
+                            } else if(totalText.text.charAt(totalText.text.length - 1) !== "-" && totalText.text.charAt(totalText.text.length - 1) === "+" && totalText.text !== "" ) {
                                 // Add a '-' sign to the start of the text
-                                values.text = "-" + values.text;
+                                //values.text = "-" + values.text;
+                                totalText.text = totalText.text.slice(0,-1) + "-";
                             }
                         }
                     }
@@ -651,7 +654,9 @@ Window {
                         }
                         Calculate.evaluateExpression(totalText.text)
                         totalText.text = ""
+                        values.text = Calculate.result
                     }
+
                 }
             }
             Keys.onPressed: function(event){
@@ -669,6 +674,8 @@ Window {
                     }
                     Calculate.evaluateExpression(totalText.text)
                     totalText.text = ""
+                    values.text = Calculate.result
+
                 } else if(event.key === Qt.Key_Plus){
                     values.text += "+"
                     totalText.text += values.text
